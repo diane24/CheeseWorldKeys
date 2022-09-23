@@ -1,10 +1,10 @@
 public class Point {
-    public int x;
-    public int y;
+    public double x;
+    public double y;
 
-    public Point(int pX, int pY){
-        x=pX;
-        y=pY;
+    public Point(double pX, double pY){
+        x= pX;
+        y= pY;
     }
 
     public void print(){
